@@ -30,3 +30,11 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage("Abhishek"));
 //console.log(loginUserMessage);
+
+
+//when you don't know how many items are going to come then
+
+function calculateCartPrice(...num){ // tripplpe dot means ,it returns an array
+    return num
+}
+//console.log(calculateCartPrice(200,300,400));
