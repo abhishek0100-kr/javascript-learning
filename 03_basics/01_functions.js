@@ -1,4 +1,3 @@
-const { use } = require("react");
 
 function name(){
     console.log("A");
