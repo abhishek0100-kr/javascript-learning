@@ -12,3 +12,19 @@ if(true){
 console.log(c); //but this will give output ,that's why we do not use var
 
  console.log(a); //takes global scope value ,which is not inside the scope 
+
+ // nested scope
+
+ function one(){
+    const username=" Abhishek"
+
+    function two(){
+        const website ="github"
+        console.log(username);
+        
+    }
+//console.log(website);
+two()
+
+ }
+ one()
