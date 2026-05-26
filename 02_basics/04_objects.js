@@ -55,3 +55,17 @@ console.log(Object.values(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //ask if any property exist in that array we created 
 
 
+// ********** de-structure *********
+
+const course ={
+    courseName: "js in hindi",
+    price: "999",
+    teacher: "Abhishek"
+
+}
+//course.teacher -> instead of writing this again and again, we use new way
+
+const {teacher: tea} =course //if you find out teacher is big for you then put teacher:tea this becomes that small
+console.log(tea);
+
+ 
