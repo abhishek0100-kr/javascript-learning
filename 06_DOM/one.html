@@ -1,0 +1,38 @@
+<!-- DOM= Document Object Model -->
+
+
+<!-- 
+it all about how javascript interact with any html elements
+
+i have tried to show in form of flowchart / tree
+
+Docuement -> html -> <body> -> Attributr: <href> -> <h1> ->Text:"Abhihsek"
+                |                   |
+              <Head>               <button> 
+                                        |
+                |                 Text: "Damo js" 
+              <title>
+                |
+            Text: "Demo"
+
+
+-->
+            this is the code and above same thing inn form of flowchart 
+<html>
+<body>
+    <h2>GeeksforGeeks</h2>
+    <!-- Finding the HTML Elements by their Id in DOM -->
+    <p id="intro">
+        A Computer Science portal for geeks.
+    </p>
+    <p>
+        This example illustrates the <b>getElementById</b> method.
+    </p>
+    <p id="demo"></p>
+    <script>
+        const element = document.getElementById("intro");
+        document.getElementById("demo").innerHTML =
+            "GeeksforGeeks introduction is: " + element.innerHTML;
+    </script>
+</body>
+</html>
